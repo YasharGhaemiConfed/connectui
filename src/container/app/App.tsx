@@ -1,23 +1,12 @@
-import React from 'react';
-import './App.css';
-import FileUpload from '../FileUpload';
+import React from "react";
+import "../../styles/App.css";
+import Dashboard from "../servicemanager/Dashboard";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <FileUpload />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Dashboard />
       </header>
     </div>
   );
